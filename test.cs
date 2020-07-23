@@ -1,4 +1,4 @@
-            string string featureCollectionJson;
+            string  featureCollectionJson;
             string sql = "SELECT TOTAL_FS,LOUBOUNDS,HEIGHT FROM DOOR where loubounds is not null";
             //从数据库查询并返回数据
             DataTable dt = OraHelper.ExecuteDataSet(ConnStr, sql).Tables[0];
